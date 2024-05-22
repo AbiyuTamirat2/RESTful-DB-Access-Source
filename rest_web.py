@@ -64,7 +64,7 @@ def update():
     # Retrieve the zip code and population from the form data
     user_zip = request.form['uzip']
     user_pop = request.form['upop']
-    return redirect(url_for('updatezippop', updateZIP=user_zip, updatePOP=user_zip))
+    return redirect(url_for('updatezippop', updateZIP=user_zip, updatePOP=user_pop))
 
 
 # search page
